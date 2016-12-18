@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid blueviolet;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+/**/
+/* HEADER*/
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: silver;
+    /*border: 2px solid darkblue;*/
+}
+
+.hight, .bottom {
+    width: 100%;
+    height: 75px;    
+    background-color: dimgray;
+ 
+}
+
+.hight {
+    border: 1px solid black;
+}
+
+.bottom {
+    border-bottom: 3px solid cyan;
+}
+
+#Htext {
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: white;
+    margin-top: 0px;    
+    /*border: 1px solid greenyellow;*/
+}
+
+/**/
+/*MAIN*/
+.container {
+    width: 99%;
+    height: 400px;
+    margin: 5px;
+    border: 2px solid saddlebrown;
+}
+
+/* one box in the container*/
+.box1 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+/* two boxes in the container*/
+.box2 {
+    width: 50.5%;
+    height: 100%;
+    float: left;
+    border: 1px solid yellow;
+}
+
+.box3 {
+    width: 49%;
+    height: 100%;
+    float: right;
+    margin-right: 3px;
+    border: 1px solid fuchsia;
+}
+
+/* four boxex in a half of the container*/
+.box4 {
+    width: 24.5%;
+    height: 49.5%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid goldenrod;
+}
+
+.box5 {
+    width: 24.5%;
+    height: 49.5%;
+    float: left;
+    border: 1px solid darkgoldenrod;
+}
+
+ /* boxes of text*/
+ /*big one*/
+#text1 {
+    width: 450px;
+    height: 300px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px; 
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-size: 35px;
+    text-indent: 60px;
+    text-align: right;
+    color:  white;
+    /*border: 1px solid aqua;*/
+}
+
+/*small one*/
+#text2 {
+    width: 210px;
+    height: 160px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px; 
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-size: 23px;
+    line-height: 95%;
+    text-indent: 60px;
+    text-align: right;
+    color:  white;
+    /*border: 1px solid aqua;*/
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+}
+
+a.big {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    background-image: url('images/arrow.png');
+    /*border: 1px solid sandybrown;*/
+}
+
+a.small  {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;    
+    background-image: url('images/arrow2.png');    
+    /*border: 1px solid sandybrown;*/
+}
+
+/**/
+/* footer*/
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: dimgray;
+    font-size: 13px;
+    font-family: Questrial, Verdana, Geneva, Tahoma, sans-serif;        
+    /*border: 2px solid turquoise;*/
+}
+
+ul.mainBar {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+}   
+
+ul.secondBar {
+    display: inline-block;
+    margin-top: 40px;        
+    margin-left: 100px;
+    /*margin-right: 80px;*/
+}
+
+li {
+    line-height: 2;
+    list-style-type: none;
+    color: white;
+    margin-right: 110px;
+    float: left;
+
+}
+
+span {
+    font-size: 18px;
+}
+
+
+a.downLink {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
