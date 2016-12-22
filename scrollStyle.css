@@ -129,6 +129,12 @@ a.num {
     text-decoration: none;
 }
 
+a.num:hover {
+    color: lavender;
+    text-decoration: none;
+}
+
+
 /**/
 /* footer*/
 .footer {
