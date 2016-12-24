@@ -14,19 +14,15 @@
     /*border: 2px solid darkblue;*/
 }
 
-.hight, .bottom {
+.height, .bottom {
     width: 100%;
-    height: 75px;    
-    background-color: dimgray;
- 
+    height: 75px;     
 }
 
-.hight {
-    border: 1px solid black;
-}
-
-.bottom {
+.height {
+    background-color: dimgray;    
     border-bottom: 3px solid cyan;
+    /*border: 1px solid black;*/
 }
 
 #Htext {
@@ -46,16 +42,30 @@
 }
 
 ul.menuUp {
+    margin-top: 12px;
     display: inline-block;
     margin-left: 10px;
+    /*border: 1px solid orangered;*/
 }
 
 li.Up {
+    height: 28px;
     color: gray;
-    font-size: 15px;
-    padding-right: 20px;
-    border-right: 1px solid gray;
+    font-family: Questrial, Verdana, Geneva, Tahoma, sans-serif;            
+    font-size: 20px;
+    padding-right: 30px;
+    border-right: 0.5px solid dimgray;
     margin-right: 40px;
+    /*border: 1px solid blue;*/
+}
+
+a.menuLink {
+    text-decoration: none;
+}
+
+a.menuLink:hover {
+    color: lavender;
+    text-decoration: none;
 }
 
 /**/
@@ -64,14 +74,14 @@ li.Up {
     width: 99%;
     height: 400px;
     margin: 5px;
-    border: 2px solid saddlebrown;
+    /*border: 2px solid saddlebrown;*/
 }
 
 /* one box in the container*/
 .box1 {
     width: 100%;
     height: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 /* boxes of text*/
@@ -114,13 +124,13 @@ a.big {
     height: 50px;
     width: 100%;
     background-color: white;
-    border: 2px solid lawngreen;
+    /*border: 2px solid lawngreen;*/
 }
 
 ul.NumPage {
     display: inline-block;
     margin-left: 450px;
-    border: 1px solid orangered;
+    /*border: 1px solid orangered;*/
 }
 
 a.num {

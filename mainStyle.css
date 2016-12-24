@@ -14,19 +14,35 @@
     /*border: 2px solid darkblue;*/
 }
 
-.hight, .bottom {
+.height, .bottom {
     width: 100%;
     height: 75px;    
-    background-color: dimgray;
- 
 }
 
-.hight {
-    border: 1px solid black;
-}
-
-.bottom {
+.height {
+    background-color: dimgray;    
     border-bottom: 3px solid cyan;
+    /*border: 1px solid black;*/
+}
+
+ul.social {
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 30px;
+    /*border: 1px solid gold;*/
+}
+
+li.sociall {
+    height: 35px;
+    padding-right: 45px;
+    list-style-type: none;
+    float: left;
+    /*border: 1px solid white;*/
+}
+
+img.links {
+    z-index: 1;
 }
 
 #Htext {
@@ -34,7 +50,9 @@
     font-size: 35px;
     text-align: left;
     color: white;
-    margin-top: 0px;    
+    padding-top: 10px;
+    margin-top: 0px; 
+    margin-left: 10px;   
     /*border: 1px solid greenyellow;*/
 }
 
@@ -174,13 +192,12 @@ ul.secondBar {
     /*margin-right: 80px;*/
 }
 
-li {
+li.second {
     line-height: 2;
     list-style-type: none;
     color: white;
     margin-right: 110px;
     float: left;
-
 }
 
 span {
