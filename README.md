@@ -1,4 +1,4 @@
 # template
-creation good template
+create a good template
 
 some stuff
